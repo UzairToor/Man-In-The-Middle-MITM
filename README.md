@@ -8,11 +8,11 @@ Following is a step by step procedure on running this project effectively:
 6. Now In the first arp reply, replace the second IP address with your Victim's IP and the MAC address with your MAC address.
 7. First Arp reply should look like this:
    send_arp_reply('192.168.1.1', '38:de:a5:bb:f9:a2', '192.168.1.10', '42:de:c2:08:d9:c9') # First ARP reply
-    #               Router IP          Router MAC        Victim IP          Your MAC
+                    Router IP          Router MAC        Victim IP          Your MAC
 9. In the second arp reply, replace the first IP address with your victims's IP and the MAC address with your victim's MAC address.
 10. Now In the second arp reply, replace the second IP address with your router's IP and the MAC address with your MAC address.
 11. First Arp reply should look like this:
     send_arp_reply('192.168.1.10', '66:d2:a5:bb:f7:06', '192.168.1.1', '42:de:c2:08:d9:c9') # Second ARP reply
-    #                Victim IP          Victim MAC         Router IP          Your MAC
+                     Victim IP          Victim MAC         Router IP          Your MAC
 13. Run 'MITM.py' file
 14. Open Wireshark or any other packet sniffer and observe the traffic from your victim coming to your computer. 
