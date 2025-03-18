@@ -15,4 +15,4 @@ Following is a step by step procedure on running this project effectively:
 13. Run 'MITM.py' file
 14. Open Wireshark or any other packet sniffer and observe the traffic from your victim coming to your computer. 
 
-*Note:* This project is educational based and should not be used to harm or steal information from anyone without their consent.
+*Note:* This project is for educational purposes only and should not be used to harm or steal information from anyone without their consent.
