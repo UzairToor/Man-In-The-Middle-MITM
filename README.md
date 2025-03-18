@@ -14,3 +14,5 @@ Following is a step by step procedure on running this project effectively:
     send_arp_reply('192.168.1.10', '66:d2:a5:bb:f7:06', '192.168.1.1', '42:de:c2:08:d9:c9') # Second ARP reply <br>
 13. Run 'MITM.py' file
 14. Open Wireshark or any other packet sniffer and observe the traffic from your victim coming to your computer. 
+
+*Note:* This project is educational based and should not be used to harm or steal information from anyone without their consent.
